@@ -29,7 +29,7 @@ public final class Constants {
     public static final SparkLowLevel.MotorType brushless = SparkLowLevel.MotorType.kBrushless;
     public static final ResetMode noReset = ResetMode.kNoResetSafeParameters;
     public static final PersistMode persist = PersistMode.kPersistParameters;
-    public static final IdleMode idleMode = IdleMode.kCoast;
+    public static final IdleMode coast = IdleMode.kCoast;
     
     public static final double slewLimits = 3;
     public static final int maxCurrent = 40;

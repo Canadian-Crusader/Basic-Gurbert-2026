@@ -35,7 +35,7 @@ public class Drive extends SubsystemBase {
 
         SparkMaxConfig baseConfig = new SparkMaxConfig();
         baseConfig.smartCurrentLimit(maxCurrent);
-        baseConfig.idleMode(idleMode);
+        baseConfig.idleMode(coast);
         baseConfig.voltageCompensation(nominalVoltage);
 
         // yes i can just apply the baseconfig straight to the motor, no i will not do it
